@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_main">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="800dp"
+        android:text="等待网络连接中"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/iv_loading"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_content"
+        android:src="@mipmap/ic_loading" />
+
+    <TextView
+        android:id="@+id/tv_hcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+</RelativeLayout>

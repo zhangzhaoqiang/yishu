@@ -1,0 +1,1 @@
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java -jar -Djava.library.path=. -jar signapk.jar platform.x509.pem platform.pk8 app-debug.apk new.apk
